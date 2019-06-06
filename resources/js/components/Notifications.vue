@@ -7,7 +7,7 @@
     </a>
     <ul class="dropdown-menu">
         <li class="header">Tienes {{unreadLength}} sin leer <div class="pull-right">
-            <a href="/notifications" >Enviar mensaje</a>
+            <a href="/messages/create" >Enviar mensaje</a>
         </div></li>
 
         <li>
@@ -28,7 +28,7 @@
                 <!-- end message -->
             </ul>
         </li>
-        <li class="footer"><a href="#">Ver todos mensajes</a></li>
+        <li class="footer"><a href="/notifications">Ver todos mensajes</a></li>
     </ul>
 </li>
 </template>

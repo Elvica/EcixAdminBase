@@ -90354,7 +90354,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "pull-right" }, [
-      _c("a", { attrs: { href: "/notifications" } }, [_vm._v("Enviar mensaje")])
+      _c("a", { attrs: { href: "/messages/create" } }, [
+        _vm._v("Enviar mensaje")
+      ])
     ])
   },
   function() {
@@ -90362,7 +90364,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("li", { staticClass: "footer" }, [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Ver todos mensajes")])
+      _c("a", { attrs: { href: "/notifications" } }, [
+        _vm._v("Ver todos mensajes")
+      ])
     ])
   }
 ]

@@ -8,6 +8,7 @@ use App\Http\ViewComposers\AdminLteComposer;
 use App\Message;
 use App\Observers\MessageObserver;
 use App\Repositories\MessagesCacheRepository;
+use App\Repositories\MessagesRepository;
 use App\Repositories\MessagesRepositoryInterface;
 use App\Repositories\UsersCacheRepository;
 use App\Repositories\UsersRepositoryInterface;
@@ -55,7 +56,7 @@ class AppServiceProvider extends ServiceProvider
         );
         $this->app->bind(
             MessagesRepositoryInterface::class,
-            MessagesCacheRepository::class
+            MessagesRepository::class
         );
         Message::observe(MessageObserver::class);
 
