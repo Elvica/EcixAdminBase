@@ -1,0 +1,473 @@
+/*CSS GENERALES*/
+.bs {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.bl-red {
+    border-left: 2px solid #D52B1E;
+}
+
+.br-80 {
+    border-radius: 80px;
+}
+
+.bcw {
+    background-color: #fff;
+}
+
+.fs-15 {
+    font-size: 1.5em;
+}
+
+.fs-14 {
+    font-size: 1.4em;
+}
+
+.fs-13 {
+    font-size: 1.3em;
+}
+
+.fs-12 {
+    font-size: 1.2em;
+}
+
+.fs-11 {
+    font-size: 1.1em;
+}
+
+.fs-10 {
+    font-size: 1.0em;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ma {
+    margin: auto;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fcr {
+    color: #D52B1E;
+    font-weight: bold;
+}
+
+.fcw {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.fcb {
+    color: #000000;
+    font-weight: bold;
+}
+
+.fcg {
+    color: gray;
+}
+
+.fca {
+    color: blue;
+}
+
+.tdr {
+    text-decoration: underline #D52B1E;
+}
+
+.m0 {
+    margin: 0px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml25 {
+    margin-left: 25px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.mt120 {
+    margin-top: 120px;
+}
+
+.mauto {
+    margin: auto;
+}
+
+.mt75 {
+    margin-top: 75px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p14 {
+    padding: 14px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.p40 {
+    padding: 40px;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.pt0 {
+    padding-top: 0px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pt25 {
+    padding-top: 25px;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.pt60 {
+    padding-top: 60px;
+}
+
+.pt65 {
+    padding-top: 65px;
+}
+
+.pt70 {
+    padding-top: 70px;
+}
+
+.pt80 {
+    padding-top: 80px;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pb10 {
+    padding-bottom: 5px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+}
+
+.pb50 {
+    padding-bottom: 50px;
+}
+
+.pb60 {
+    padding-bottom: 60px;
+}
+
+.pb70 {
+    padding-bottom: 70px;
+}
+
+.pb80 {
+    padding-bottom: 80px;
+}
+
+.pb90 {
+    padding-bottom: 90px;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
+.pl0 {
+    padding-left: 0px !important;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.pl40 {
+    padding-left: 40px;
+}
+
+.pl50 {
+    padding-left: 50px;
+}
+
+.pl60 {
+    padding-left: 60px;
+}
+
+.pl70 {
+    padding-left: 70px;
+}
+
+.pl80 {
+    padding-left: 80px;
+}
+
+.pr0 {
+    padding-right: 0px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pr30 {
+    padding-right: 30px;
+}
+
+.pr40 {
+    padding-right: 40px;
+}
+
+.pr50 {
+    padding-right: 50px;
+}
+
+.pr60 {
+    padding-right: 60px;
+}
+
+.pr70 {
+    padding-right: 70px;
+}
+
+.pr80 {
+    padding-right: 80px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.font-1-2em {
+    font-size: 1.2em;
+}
+
+.font-1-5em {
+    font-size: 1.5em;
+}
+
+.font-2em {
+    font-size: 2em;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.bgcg {
+    background-color: #fff;
+}
+
+.bgo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img100 {
+    width: 100% !important;
+    height: auto;
+}

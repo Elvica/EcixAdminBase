@@ -1,0 +1,31 @@
+// Fonts
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+
+// Variables
+/*@import 'variables';*/
+
+// Bootstrap
+/*@import '~bootstrap/scss/bootstrap';*/
+@import '~font-awesome/scss/font-awesome';
+@import '~ionicons/dist/scss/ionicons';
+@import '~morris-js-module/morris.css';
+@import '~jvectormap/jquery-jvectormap.css';
+@import '~bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css';
+@import '~bootstrap-daterangepicker/daterangepicker.css';
+@import '~bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css';
+@import '~bootstrap-timepicker/css/bootstrap-timepicker.min.css';
+@import '~bootstrap3-wysihtml5-npm/dist/bootstrap3-wysihtml5.min.css';
+@import '~fullcalendar/dist/fullcalendar.min.css';
+@import '~fullcalendar/dist/fullcalendar.print.min.css' print;
+@import "~sweetalert2/src/sweetalert2";
+
+.swal2-popup {
+  font-size: 1.6rem !important;
+}
+.select2-container .select2-selection--multiple {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 34px;
+  user-select: none;
+  -webkit-user-select: none; }
