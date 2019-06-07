@@ -2,11 +2,11 @@
 @section('css')
 
 @endsection
-@section('title', 'ECIX - Listado Usuarios')
+@section('title', 'ECIX - Listado Mensajes')
 
 @section('content_header')
-    <h1>@lang("List Users")
-    <small>@lang("Aplication Users")</small>
+    <h1>@lang("List Messages")
+    <small>@lang("Aplication Message")</small>
     </h1>
 @stop
 
@@ -14,7 +14,7 @@
     @if(session()->has('info'))
         <div class="alert alert-success alert-dismissible" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h4><i class="icon fa fa-check"></i>@lang("User")</h4>
+            <h4><i class="icon fa fa-check"></i>@lang("Message")</h4>
             {{session('info')}}
         </div>
     @endif
@@ -23,7 +23,7 @@
         <div class="col-xs-12">
             <div class="box">
                 <div class="box-header">
-                    <h3 class="box-title">Usuarios</h3>
+                    <h3 class="box-title">Mensajes</h3>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
