@@ -41,7 +41,7 @@
         "jvectormap": "^2.0.4",
         "laravel-echo": "^1.5.3",
         "laravel-echo-server": "^1.5.5",
-        "moment": "^2.24.0",
+        "moment": "^2.29.4",
         "morris-js-module": "^1.2.1",
         "pusher-js": "^4.4.0",
         "raphael": "^2.2.8",
